@@ -46,7 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game\Behavior\Actor\Enviroment\endPlatform.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\Enviroment\ground.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\Enviroment\platform.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\Enviroment\switchPlatform.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\State\ActorState.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\State\IPlayerState.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\actor.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\actorInput.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\actorMovement.cs" />
+     <Compile Include="Assets\Game\Behavior\Actor\animationController.cs" />
      <Compile Include="Assets\Game\Behavior\tempPlayerMovement.cs" />
+     <Compile Include="Assets\Game\GameData\GameManager.cs" />
+     <Compile Include="Assets\Game\GameData\ScoreCounter.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
